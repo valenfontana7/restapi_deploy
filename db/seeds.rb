@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+user = User.create(
+  { login: 'jsmith', name: 'John Smith', provider: 'github' }
+)
+
 Article.create([
                  { title: 'Article title 1', content: 'Article content 1', slug: 'article-title-1' },
                  { title: 'Article title 2', content: 'Article content 2', slug: 'article-title-2' },
