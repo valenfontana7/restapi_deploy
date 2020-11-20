@@ -1,0 +1,9 @@
+{
+  "name": "restapi_deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/valenfontana7/restapi_deploy.git",
+  "author": "Valentin Fontana <valenfontana7@gmail.com>",
+  "license": "MIT",
+  "engines" : { "node": "10.19.0" }
+}
